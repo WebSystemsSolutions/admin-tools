@@ -1,7 +1,12 @@
 # admin-tools
 
-
 Набор инструментов  для административных задач:
+
+Подключение:
+```
+composer require sd1328/admin-tools
+```
+
 
 #### 1.1 Ридер логов
 > /Service/LogPageReader
