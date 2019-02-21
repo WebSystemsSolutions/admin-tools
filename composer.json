@@ -1,0 +1,24 @@
+{
+  "name": "WebSystemsSolutions/admin-tools",
+  "description" : "Server / Application Administration Components",
+  "type": "library",
+  "keywords": ["php", "tools", "server"],
+  "license": "MIT",
+  "version": "1.0.0-dev",
+  "authors": [
+    {
+      "name": "Lex Gudz",
+      "email": "sd1328@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "symfony/process": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sd1328\\AdminTools\\": "src/"
+    }
+  }
+}
