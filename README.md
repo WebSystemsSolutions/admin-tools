@@ -1,2 +1,2 @@
 # admin-tools
-System administrator tools
+Server administration tools for a PHP application
