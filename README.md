@@ -74,7 +74,7 @@ Allows page-by-page reading of text logs (conveniently in the case of a large-si
 It can be used to monitor the status of various text logs.
 
 __Example use:__
-``php
+```php
 $ logReader = new LogPageReader ('/ var / www / logs / test-log', 5 * 1024);
 
 // Reading 1 page (the very end of the log)
@@ -102,13 +102,13 @@ Can be used to monitor server operation.
 
 __Example use:__
 ```php
-// you can set a list of the received indicators - by default all available
-$ sensorList = null;
-$ stat = new OsMonitoring ($ sensorList);
+//you can set a list of the received indicators - by default all available
+$sensorList = null;
+$stat = new OsMonitoring($sensorList);
 
 // getting testimony
-foreach ($ stat-> getMeters () as $ key => $ meter) {
-    echo $ key. ':'. $ meter. PHP_EOL;
+foreach ($stat->getMeters() as $key => $meter) {
+    echo $key . ' : ' . $meter . PHP_EOL;
 }
 
 ```
