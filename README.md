@@ -1,4 +1,4 @@
-RU 
+[RU]
 # admin-tools
 
 Набор инструментов  для административных задач:
@@ -55,7 +55,7 @@ foreach ($stat->getMeters() as $key => $meter) {
 }
 
 ```
-ENG
+[ENG]
 # admin-tools
 
 A set of tools for administrative tasks:
