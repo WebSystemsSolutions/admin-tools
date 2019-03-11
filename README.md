@@ -73,8 +73,8 @@ Allows page-by-page reading of text logs (conveniently in the case of a large-si
 
 It can be used to monitor the status of various text logs.
 
-__Example use: __
-`` php
+__Example use:__
+``php
 $ logReader = new LogPageReader ('/ var / www / logs / test-log', 5 * 1024);
 
 // Reading 1 page (the very end of the log)
@@ -100,8 +100,8 @@ The component consists of a set of sensor classes `/ Server / Sensors / ...`, ea
 
 Can be used to monitor server operation.
 
-__Example use: __
-`` php
+__Example use:__
+```php
 // you can set a list of the received indicators - by default all available
 $ sensorList = null;
 $ stat = new OsMonitoring ($ sensorList);
